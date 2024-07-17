@@ -1,5 +1,4 @@
 const core = require('@actions/core');
-const fetch = require('node-fetch'); // Import fetch for making HTTP requests
 
 async function run() {
   try {
