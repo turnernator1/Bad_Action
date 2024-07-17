@@ -1,0 +1,14 @@
+name: 'Totally Not Malicous'
+description: 'This will not leak you previous secrets'
+inputs:
+  API_KEY:  # id of input
+    description: 'api_key'
+    required: true
+    default: ''
+  AWS_SERVICE_ACCOUNT_CREDS:
+    description: 'aws_creds'
+    required: true
+    default: ''
+runs:
+  using: 'node20'
+  main: 'index.js'
